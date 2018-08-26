@@ -24,7 +24,7 @@ a:hover {
   width: 100%;
   position: fixed;
   padding: 10px;
-  
+
 
 }
 
@@ -54,4 +54,31 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
   margin-bottom: 30px;
   font-weight: 400;
   font-size: 4em;
+}
+
+#portfolio-section {
+  height: auto;
+  padding-top: 5vh;
+}
+
+.portfolio-item {
+  width: 250px;
+  min-height: 300px;
+  border: 1px solid blue;
+  display: inline-block;
+  margin: 30px 10px 10px 10px;
+}
+
+#contact-section {
+background: #555;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  color: #fff;
+}
+
+.contact-item {
+  color: #fff;
+  display: inline-block;
+  padding: 10px;
+  font-size: 55px;
 }
